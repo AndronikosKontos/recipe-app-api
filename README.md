@@ -1,20 +1,5 @@
-# Recipe App API DevOps Starting Point
+# Recipe App API 
 
-Source code for my Udemy course Build a [Backend REST API with Python & Django - Advanced](http://udemy.com/django-python-advanced/).
+A Django API that is deployed to AWS through Gitlab CI/CD pipelines. The cloud infrastructure is provisioned using Terraform.
 
-The course teaches how to build a fully functioning REST API using:
-
- - Python
- - Django / Django-REST-Framework
- - Docker / Docker-Compose
- - Test Driven Development
-
-## Getting started
-
-To start project, run:
-
-```
-docker-compose up
-```
-
-The API will then be available at http://127.0.0.1:8000
+An NGINX proxy server (configured here https://github.com/AndronikosKontos/recipe-app-api-proxy) is used to serve static files.
